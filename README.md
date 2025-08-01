@@ -14,6 +14,8 @@ The wttr implementation is [wttr.py](./wttr.py).
 uv venv
 source .venv/bin/activate
 uv sync
+# or for all tooling
+uv sync --all-groups
 ```
 
 ### Add MCP Server - Gemini
@@ -90,3 +92,7 @@ uv run mcp dev wttr.py
   Not a single drop of rain! It's a great day for news, and a
   great day for Bristol. I'm Ron Burgundy. Stay classy.
 ```
+
+## Tooling
+
+This project uses ruff for linting and formatting.
