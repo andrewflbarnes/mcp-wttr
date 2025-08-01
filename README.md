@@ -62,5 +62,31 @@ uv run mcp dev wttr.py
  │    Weather=Overcast                                       │
  │    UV Index=1                                             │
  ╰───────────────────────────────────────────────────────────╯
-✦ The weather in Bristol is: Temperature=+20°C, Wind=↓15km/h, Humidity=46%, Pressure=1017hPa, Precipitation=0.0mm, Weather=Overcast, UV Index=1.
+✦ The weather in Bristol is: Temperature=+20°C, Wind=↓15km/h,
+  Humidity=46%, Pressure=1017hPa, Precipitation=0.0mm,
+  Weather=Overcast, UV Index=1.
+```
+
+```
+╭──────────────────────────╮
+│  > /ron_weather Bristol  │
+╰──────────────────────────╯
+
+ ╭──────────────────────────────────────────────────────────╮
+ │ ✔  get_city_weather (wttr MCP Server) {"city":"Bristol"} │
+ │                                                          │
+ │    Temperature=+20°C                                     │
+ │    Wind=↓15km/h                                          │
+ │    Humidity=46%                                          │
+ │    Pressure=1017hPa                                      │
+ │    Precipitation=0.0mm                                   │
+ │    Weather=Overcast                                      │
+ │    UV Index=1                                            │
+ ╰──────────────────────────────────────────────────────────╯
+✦ Great Odin's raven! Bristol, listen up! It's a balmy 20 degrees
+  out there, but don't let that overcast sky fool you. There's a
+  gentle breeze at 15km/h, just enough to keep things fresh
+  without messing up my magnificent hair. And the best part?
+  Not a single drop of rain! It's a great day for news, and a
+  great day for Bristol. I'm Ron Burgundy. Stay classy.
 ```

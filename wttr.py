@@ -40,5 +40,17 @@ async def get_city_weather(city: str) -> str:
     return await get_weather(city)
 
 
+@mcp.prompt("ron_weather", title="Get weather as Run Burgundy")
+def ron_weather(city: str) -> str:
+    """Prompt to get weather for a specific city in the style of Ron Burgundy.
+
+    Args:
+        city (str): The name of the city to get the weather for.
+    """
+    return (f"Get weather for {city}."
+            "Present a summary in the style of Ron Burgundy from Anchorman."
+            )
+
+
 if __name__ == "__main__":
     mcp.run(transport="stdio")
