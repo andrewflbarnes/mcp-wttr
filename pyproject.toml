@@ -8,3 +8,8 @@ dependencies = [
     "httpx>=0.28.1",
     "mcp[cli]>=1.12.2",
 ]
+
+[dependency-groups]
+lint = [
+    "ruff>=0.12.7",
+]
