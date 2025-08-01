@@ -39,7 +39,7 @@ async def get_city_weather(city: str) -> str:
     return await get_weather(city)
 
 
-@mcp.prompt("ron_weather", title="Get weather as Run Burgundy")
+@mcp.prompt("ron_weather", title="Get weather as Ron Burgundy")
 def ron_weather(city: str) -> str:
     """Prompt to get weather for a specific city in the style of Ron Burgundy.
 
