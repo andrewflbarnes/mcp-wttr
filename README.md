@@ -45,3 +45,22 @@ Run the mcp inspector with
 ```bash
 uv run mcp dev wttr.py
 ```
+
+## Example - Gemini
+
+```
+> Get weather in Bristol
+
+ ╭───────────────────────────────────────────────────────────╮
+ │ ✔  get_city_weather (wttr MCP Server) {"city":"Bristol"}  │
+ │                                                           │
+ │    Temperature=+20°C                                      │
+ │    Wind=↓15km/h                                           │
+ │    Humidity=46%                                           │
+ │    Pressure=1017hPa                                       │
+ │    Precipitation=0.0mm                                    │
+ │    Weather=Overcast                                       │
+ │    UV Index=1                                             │
+ ╰───────────────────────────────────────────────────────────╯
+✦ The weather in Bristol is: Temperature=+20°C, Wind=↓15km/h, Humidity=46%, Pressure=1017hPa, Precipitation=0.0mm, Weather=Overcast, UV Index=1.
+```
